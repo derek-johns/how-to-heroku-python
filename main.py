@@ -1,5 +1,10 @@
 from flask import Flask
 
+
+def load_html(file):
+    with open(file, 'r') as f:
+        return f.read()
+
 pagehtml = """
 <!doctype html>
 
@@ -38,11 +43,11 @@ h1, h2, strong {
   <p><img src="http://www.marinemodelartist.com/Mary_Taylor/Mary_Taylor_files/shapeimage_4.png"</p>
   <p>This is a schooner.</p>
   
-  
+  {% load_html('./htmltoadd.txt') %}
 
 
   <h2>The Bluenose II</h2>
-  <p><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FBluenose_II&psig=AOvVaw2C0EaT4wVx8raQ8VnpcG_i&ust=1608513078096000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPCntbaw2-0CFQAAAAAdAAAAABAD"</p>
+  <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Bluenose_II_Toronto_01.jpg/550px-Bluenose_II_Toronto_01.jpg"</p>
   <p>This is a Bluenose.</p>
 
 

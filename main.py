@@ -36,7 +36,14 @@ h1, h2, strong {
 <body>
   <h2>The Schooner</h2>
   <p><img src="http://www.marinemodelartist.com/Mary_Taylor/Mary_Taylor_files/shapeimage_4.png"</p>
-<p>This is a schooner.</p>
+  <p>This is a schooner.</p>
+  
+  
+
+
+  <h2>The Bluenose II</h2>
+  <p><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FBluenose_II&psig=AOvVaw2C0EaT4wVx8raQ8VnpcG_i&ust=1608513078096000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPCntbaw2-0CFQAAAAAdAAAAABAD"</p>
+  <p>This is a Bluenose.</p>
 
 
 </body>

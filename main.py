@@ -43,7 +43,7 @@ h1, h2, strong {
   <p><img src="http://www.marinemodelartist.com/Mary_Taylor/Mary_Taylor_files/shapeimage_4.png"</p>
   <p>This is a schooner.</p>
   
-  {% load_html('./htmltoadd.txt') %}
+  {{ load_html('./htmltoadd.txt') }}
 
 
   <h2>The Bluenose II</h2>
